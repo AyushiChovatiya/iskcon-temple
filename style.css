@@ -235,7 +235,7 @@ body {
     width: 890px;
     height: 500px;
     margin-top: 40px;
-    /* padding-left: 90px;git */
+    /* padding-left: 90px; */
 }
 
 .img {
@@ -299,11 +299,12 @@ body {
 
 .srila p {
     width: 1200px;
-    /* margin-left: 171px; */
+    margin-left: 171px;
     text-align: justify;
     color: #393939;
     font-size: 18px;
     line-height: 1.5;
+    margin-left: 171px;
 }
 
 .mahavishnu {
