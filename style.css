@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0px;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
+    z-index: 9999;
+    position: fixed;
+}
+
+.logoimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 4.6em;
+}
+
+.navbar {
+    margin-left: 100px;
+}
+
+.underlineEffects ul {
+    list-style: none;
+    display: table;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.underlineEffects li {
+    display: table-cell;
+    position: relative;
+}
+
+.underlineEffects a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.underlineEffects a:hover {
+    color: #a3bfff;
+}
+
+.underlineEffects a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background-color: #a3bfff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.underlineEffects a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.about-sub {
+    position: relative;
+}
+
+.about-sub:hover .sub {
+    display: flex;
+}
+
+.sub {
+    position: absolute;
+    left: -150px;
+    width: 399px;
+    font-size: 1rem;
+    height: 270px;
+    background-color: #0d0551;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.sub-menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.sub-menu-item a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #a3bfff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.sub-menu-item:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.activity-sub {
+    position: relative;
+}
+
+.activity-sub:hover .sub-activity {
+    display: flex;
+}
+
+.sub-activity {
+    position: absolute;
+    left: -80px;
+    width: 326px;
+    font-size: 1rem;
+    height: 270px;
+    background-color: #0d0551;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.booking-sub {
+    position: relative;
+}
+
+.booking-sub:hover .sub-booking {
+    display: flex;
+}
+
+.sub-booking {
+    position: absolute;
+    left: -80px;
+    width: 222px;
+    font-size: 1rem;
+    height: 105px;
+    background-color: #0d0551;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.donate-sub {
+    position: relative;
+}
+
+.donate-sub:hover .sub-donate {
+    display: flex;
+}
+
+.sub-donate {
+    position: absolute;
+    left: -80px;
+    width: 198px;
+    font-size: 1rem;
+    height: 300px;
+    background-color: #0d0551;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.down-icon {
+    font-size: 24px;
+}
+
+.search-icon {
+    color: white;
+    font-size: 17px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    color: #a3bfff;
+}
+
+
+/* main CSS start  */
+.se-carousel {
+    padding: 140px 60px 10px 60px;
+}
+
+.carosel-slide {
+    transition: .3s;
+}
+
+
+
+/* About Css  */
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.pera {
+    color: #0d0551;
+    width: 890px;
+    height: 500px;
+    margin-top: 40px;
+    padding-left: 90px;
+}
+
+.img {
+    width: 450px;
+    height: 500px
+}
+
+/* .sticky {
+    position: sticky;
+    top: 0;
+    left: 500px;
+    padding: 50px;
+    font-size: 20px;
+} */
+
+.fimg {
+    margin-bottom: 15px;
+    width: 391px;
+}
+
+.simg {
+    width: 391px;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.firstpera {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #393939;
+}
+
+.secondpera,
+.thirdpera {
+    color: #393939;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.onesrila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d0551;
+}
+
+.twosrila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d0551;
+}
+
+.srila p {
+    width: 1200px;
+    margin-left: 171px;
+    text-align: justify;
+    color: #393939;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.mahavishnu {
+    display: flex;
+    gap: 60px;
+    margin-top: 90px;
+
+}
+
+.mahavishnu p {
+    width: 600px;
+    text-align: justify;
+    color: #393939;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.head-maha {
+    margin-left: 171px;
+    color: #0d0551;
+}
+
+.head-maha p {
+    color: #0d0551;
+}
+
+.img-maha {
+    width: 600px;
+    height: 600px;
+}
+
+figure {
+    margin-bottom: 60px;
+}
+
+
+.imagesContainer {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagesContainer img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* animation styles */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeInClass {
+    animation-name: fadeIn;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.don-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #0d0551;
+}
+
+.don-img-data {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.don-img {
+    height: 1200px;
+    width: 700px;
+}
+
+.don-data {
+    height: 700px;
+    width: 300px;
+    padding: 20px;
+}
+
+.up-event {
+    font-size: 1.80rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.60rem;
+    font-weight: 600;
+}
+
+.don-data a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 1.10rem;
+}
+
+.don-data a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.60rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.60rem;
+    font-weight: 600;
+}
+
+.donate-ekadasi {
+    color: #0d0551;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banks {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 145px;
+    margin-top: 20px;
+}
+
+.hdfc {
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.hdfc-img {
+    margin-bottom: 20px;
+}
+
+.contact {
+    height: 250px;
+    width: 300px;
+}
+
+.phone {
+    position: relative;
+    margin-top: 15px;
+}
+
+.phone span {
+    margin-left: 30px;
+}
+
+#phone-icon {
+    position: absolute;
+    top: 2px;
+    color: #0e509a;
+}
+
+.email {
+    position: relative;
+    margin-top: 5px;
+}
+
+.email span {
+    margin-left: 30px;
+}
+
+#email-icon {
+    position: absolute;
+    top: 2px;
+    color: #0e509a;
+}
+
+.location {
+    position: relative;
+    margin-top: 5px;
+}
+
+.location span {
+    margin-left: 30px;
+}
+
+#location-icon {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    color: #0e509a;
+}
+
+.yes {
+    padding-left: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.yes-img {
+    margin-bottom: 25px;
+}
+
+.lecture-head {
+    margin-left: 180px;
+    margin-top: 60px;
+    color: #0d0551;
+}
+
+.lectures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
+    height: 280px;
+    width: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+    padding: 20px;
+}
+
+.foot-con {
+    width: 336px;
+    height: 230px;
+    color: #fff;
+    position: relative;
+}
+
+.foot-con h4 {
+    margin-bottom: 20px;
+}
+
+.foot-con p:hover {
+    color: #30A7FF;
+    cursor: pointer;
+}
+
+.number {
+    position: absolute;
+    font-size: 18px;
+    top: 48px;
+    left: 35px;
+}
+
+.isk-email {
+    position: absolute;
+    font-size: 18px;
+    top: 88px;
+    left: 35px;
+}
+
+.ig-yt-icon {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.ig-yt-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+}
+
+.ig:hover {
+    background-color: #30A7FF;
+    cursor: pointer;
+    border: none;
+}
+
+.yt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+}
+
+.yt:hover {
+    background-color: #30A7FF;
+    cursor: pointer;
+    border: none;
+}
+
+.twit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+}
+
+.twit:hover {
+    background-color: #30A7FF;
+    cursor: pointer;
+    border: none;
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+}
+
+.fb:hover {
+    background-color: #30A7FF;
+    cursor: pointer;
+    border: none;
+}
+
+.map {
+    width: 430px;
+    height: 230px;
+}
+
+.loc {
+    position: relative;
+    width: 300px;
+    height: 230px;
+    color: #fff;
+}
+
+.loc h3 {
+    margin-bottom: 20px;
+}
+
+.isk-loc {
+    font-size: 17px;
+}
