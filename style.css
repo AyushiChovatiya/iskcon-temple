@@ -298,7 +298,8 @@ body {
 }
 
 .srila p {
-    width: 1200px;
+    width: 1250px;
+    margin-left: 125px;
     text-align: justify;
     color: #393939;
     font-size: 18px;
@@ -387,7 +388,7 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
     color: #0d0551;
 }
 
@@ -446,7 +447,7 @@ figure {
 
 .donate-ekadasi {
     color: #0d0551;
-    margin-top: 65px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -457,7 +458,7 @@ figure {
     justify-content: center;
     align-items: start;
     gap: 145px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .hdfc {
