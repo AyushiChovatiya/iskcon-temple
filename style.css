@@ -332,11 +332,13 @@ body {
 
 .head-maha {
     color: #0d0551;
+    margin-left: 35px;
 }
 
 .head-maha p {
     color: #0d0551;
     width: 595px;
+    margin-left: 35px;
 }
 
 .img-maha {
