@@ -226,14 +226,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     margin-top: 45px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    border: 1px solid black;
 }
 
 .pera {
     color: #0d0551;
-    width: 756px;
+    width: 840px;
     height: 500px;
     margin-top: 40px;
     /* padding-left: 90px; */
@@ -244,6 +245,7 @@ body {
     width: 450px;
     height: 500px
 }
+
 /* .sticky{
     display: flex;
     height: 80px;
@@ -289,6 +291,10 @@ body {
     line-height: 1.5;
 }
 
+.srila {
+    border: 1px solid black;
+}
+
 .onesrila {
     display: flex;
     justify-content: center;
@@ -305,8 +311,8 @@ body {
 }
 
 .srila p {
-    width: 1200px;
-    margin-left: 115px;
+    width: 1375px;
+    margin-left: 80px;
     text-align: justify;
     color: #393939;
     font-size: 18px;
@@ -317,13 +323,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     margin-top: 90px;
-
+    border: 1px solid black;
 }
 
 .mahavishnu p {
-    width: 600px;
+    width: 703px;
     text-align: justify;
     color: #393939;
     font-size: 18px;
@@ -336,6 +342,7 @@ body {
     /* text-align: center; */
     margin-left: 35px;
 }
+
 /* .head-maha h2{
     margin-left: 35px;
 }
