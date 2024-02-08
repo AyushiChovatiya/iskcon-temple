@@ -228,6 +228,7 @@ body {
     align-items: center;
     gap: 60px;
     margin-top: 45px;
+    margin-left: 100px;
 }
 
 .pera {
@@ -304,8 +305,8 @@ body {
 }
 
 .srila p {
-    width: 1250px;
-    margin-left: 125px;
+    width: 1000px;
+    /* margin-left: 125px; */
     text-align: justify;
     color: #393939;
     font-size: 18px;
