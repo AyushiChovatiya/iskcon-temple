@@ -332,14 +332,18 @@ body {
 
 .head-maha {
     color: #0d0551;
+    /* width: 595px; */
+    /* text-align: center; */
     margin-left: 35px;
 }
-
+/* .head-maha h2{
+    margin-left: 35px;
+}
 .head-maha p {
     color: #0d0551;
     width: 595px;
     margin-left: 35px;
-}
+} */
 
 .img-maha {
     width: 600px;
