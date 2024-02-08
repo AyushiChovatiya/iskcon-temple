@@ -226,7 +226,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 50px;
     margin-top: 45px;
     /* margin-left: 100px; */
     border: 1px solid black;
@@ -311,7 +311,7 @@ body {
 }
 
 .srila p {
-    width: 1375px;
+    width: 1250px;
     margin-left: 80px;
     text-align: justify;
     color: #393939;
@@ -323,13 +323,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 55px;
     margin-top: 90px;
     border: 1px solid black;
 }
 
 .mahavishnu p {
-    width: 703px;
+    width: 650px;
     text-align: justify;
     color: #393939;
     font-size: 18px;
