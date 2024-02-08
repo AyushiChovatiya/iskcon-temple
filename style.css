@@ -226,27 +226,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    margin-top: 60px;
+    gap: 60px;
+    margin-top: 45px;
 }
 
 .pera {
     color: #0d0551;
-    width: 890px;
+    width: 756px;
     height: 500px;
     margin-top: 40px;
     /* padding-left: 90px; */
 }
 
 .img {
+    /* border: 1px solid black; */
     width: 450px;
     height: 500px
 }
+/* .sticky{
+    display: flex;
+    height: 80px;
 
+} */
 /* .sticky {
     position: sticky;
     top: 0;
-    left: 500px;
+    left: 50px;
     padding: 50px;
     font-size: 20px;
 } */
@@ -288,6 +293,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #0d0551;
+    margin-top: 40PX;
 }
 
 .twosrila {
