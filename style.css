@@ -33,7 +33,9 @@ header {
 .navbar {
     margin-left: 100px;
 }
-
+.navbar .active a{
+    color:#a3bfff;
+}
 .underlineEffects ul {
     list-style: none;
     display: table;
@@ -228,8 +230,6 @@ body {
     align-items: center;
     gap: 100px;
     margin-top: 45px;
-    /* margin-left: 100px; */
-    border: 1px solid black;
 }
 
 .pera {
@@ -290,11 +290,6 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
-
-.srila {
-    border: 1px solid black;
-}
-
 .onesrila {
     display: flex;
     justify-content: center;
@@ -326,7 +321,6 @@ body {
     align-items: center;
     gap: 70px;
     margin-top: 90px;
-    border: 1px solid black;
 }
 
 .mahavishnu p {
@@ -572,7 +566,7 @@ figure {
 footer {
     background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
     height: 280px;
-    width: auto;
+    width: 100%;
 }
 
 .footer {

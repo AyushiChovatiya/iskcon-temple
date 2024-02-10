@@ -1,0 +1,248 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="IMG/favicon icon.jpg">
+    <title>ISKCON Rajkot</title>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logoimg">
+            <img src="IMG/logo.png" alt="logo" class="logo">
+        </div>
+        <nav>
+            <!-- <div class="bar" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div> -->
+
+            <!-- <button class="navbar-toggle" aria-label="Navigation Menu	">
+                <div class="bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button> -->
+
+
+            <div class="underlineEffects">
+                <ul class="navbar">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="about-sub">
+                        <a href="#">
+                            About <span class="down-icon"><i class='bx bxs-chevron-down'></i></span>
+                        </a>
+                        <div class="sub">
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item">
+                                    <a href="#">Temple</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">What is ISKCON?</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Who is Srila Prabhupada?</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">About HH Mahavishnu Goswami
+                                        Maharaja</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Authority</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            position: relative;
+        }
+        .bar {
+            /* display: none; */
+            padding: 10px;
+            position: absolute;
+            right: 60px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .bar1,
+        .bar2,
+        .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        .change .bar1 {
+            transform: translate(0, 11px) rotate(-45deg);
+        }
+
+        .change .bar2 {
+            opacity: 0;
+        }
+
+        .change .bar3 {
+            transform: translate(0, -11px) rotate(45deg);
+        }
+
+
+        /*  */
+        ul {
+            padding: 0px;
+        }
+
+        header {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 110px;
+            width: 100%;
+            background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
+            z-index: 9999;
+            position: fixed;
+        }
+
+        .logoimg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .logo {
+            height: 4.6em;
+        }
+
+        .navbar {
+            margin-left: 100px;
+        }
+
+        .navbar .active a {
+            color: #a3bfff;
+        }
+
+        .underlineEffects ul {
+            list-style: none;
+            display: table;
+            text-align: center;
+            font-family: Roboto;
+        }
+
+        .underlineEffects li {
+            display: table-cell;
+            position: relative;
+        }
+
+        .underlineEffects a {
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            padding: 15px 20px;
+            position: relative;
+        }
+
+        .underlineEffects a:hover {
+            color: #a3bfff;
+        }
+
+        .underlineEffects a:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background-color: #a3bfff;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+
+        .underlineEffects a:hover:after {
+            width: 100%;
+            left: 0;
+        }
+
+        .about-sub {
+            position: relative;
+        }
+
+        .about-sub:hover .sub {
+            display: flex;
+        }
+
+        .sub {
+            position: absolute;
+            left: -150px;
+            width: 399px;
+            font-size: 1rem;
+            height: 270px;
+            background-color: #0d0551;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .sub-menu li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-family: Roboto;
+        }
+
+        .sub-menu-item a:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #a3bfff;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+
+        .sub-menu-item:hover:after {
+            width: 100%;
+            left: 0;
+        }
+    </style>
+</body>
+
+</html>

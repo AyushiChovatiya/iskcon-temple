@@ -1,130 +1,14 @@
+<?php
+include 'header.php';
+?>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="IMG/favicon icon.jpg">
+    <link rel="icon" type="image/x-icon" href="..//IMG/favicon icon.jpg">
     <title>ISKCON Rajkot</title>
 </head>
 
 <body>
-    <header>
-        <div class="logoimg">
-            <img src="IMG/logo.png" alt="logo" class="logo">
-        </div>
-        <nav>
-            <div class="underlineEffects">
-                <ul class="navbar">
-                    <li class="active"><a href="index.html" >Home</a></li>
-                    <li class="about-sub">
-                        <a href="#">
-                            About <span class="down-icon"><i class='bx bxs-chevron-down'></i></span>
-                        </a>
-                        <div class="sub">
-                            <ul class="sub-menu">
-                                <li class="sub-menu-item">
-                                    <a href="temple.html">Temple</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">What is ISKCON?</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Who is Srila Prabhupada?</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">About HH Mahavishnu Goswami
-                                        Maharaja</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Authority</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="activity-sub">
-                        <a href="#">
-                            Our Activities <span class="down-icon"><i class='bx bxs-chevron-down'></i></span>
-                        </a>
-                        <div class="sub-activity">
-                            <ul class="sub-menu">
-                                <li class="sub-menu-item">
-                                    <a href="#">ISKCON Youth Forun(IYF)</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Sunday Program</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Sri Prahlad Children's Class</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Radha Rani Sabha</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Courses On Bhagvat Gita</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Lectuers</a></li>
-                    <li class="booking-sub">
-                        <a href="#">
-                            Booking<span class="down-icon"><i class='bx bxs-chevron-down'></i></span>
-                        </a>
-                        <div class="sub-booking">
-                            <ul class="sub-menu">
-                                <li class="sub-menu-item">
-                                    <a href="#">Guest House Booking</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Prasadam Booking</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="donate-sub">
-                        <a href="#">
-                            Donate<span class="down-icon"><i class='bx bxs-chevron-down'></i></span>
-                        </a>
-                        <div class="sub-donate">
-                            <ul class="sub-menu">
-                                <li class="sub-menu-item">
-                                    <a href="#">Gau Seva</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Nitya Seva</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Sadhu Bojan</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Daily Annadan</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Food to the NEEdy</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Donation Policy</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">
-                            Contact Us
-                        </a></li>
-                    <li><span class="search-icon"><i class='bx bx-search'></i></span></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
     <main>
         <section class="se-carousel animate__animated animate__fadeInLeft">
             <!-- Carousel -->
@@ -139,10 +23,10 @@
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="IMG/banner 1.jpg" alt="first" class="d-block" style="width:100%">
+                        <img src="..//IMG/banner 1.jpg" alt="first" class="d-block" style="width:100%">
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/banner 2.jpg" alt="second" class="d-block" style="width:100%">
+                        <img src="..//IMG/banner 2.jpg" alt="second" class="d-block" style="width:100%">
                     </div>
                 </div>
 
@@ -180,8 +64,8 @@
                     Sri Vajubhai Vala.</p>
             </div>
             <div class="img ">
-                <img src="IMG/temple.jpg" alt="" class="fimg animate__animated animate__slideInRight">
-                <img src="IMG/night temple.jpg" alt="" class="simg animate__animated animate__fadeInRight">
+                <img src="..//IMG/temple.jpg" alt="" class="fimg animate__animated animate__slideInRight">
+                <img src="..//IMG/night temple.jpg" alt="" class="simg animate__animated animate__fadeInRight">
             </div>
             <!-- <div class="sticky">
                 <img src="IMG/scroll.png" alt="" class="sticky">
@@ -241,8 +125,8 @@
             <div class="img-maha">
                 <figure>
                     <div class="imagesContainer">
-                        <img src="IMG/maharaj8.jpg" alt="">
-                        <img class="fadeInClass" src="IMG/maharaj10.jpg">
+                        <img src="..//IMG/maharaj8.jpg" alt="">
+                        <img class="fadeInClass" src="..//IMG/maharaj10.jpg">
                     </div>
                 </figure>
             </div>
@@ -250,9 +134,10 @@
         <h2 class="don-head">Latest Donation Opportunities</h2>
         <section class="don-img-data">
             <div class="don-img">
-                <img src="IMG/WhatsApp-Image-2022-10-06-at-5.08.07-AM.jpeg" alt="" style="height: 600px;width: 700px;">
+                <img src="..//IMG/WhatsApp-Image-2022-10-06-at-5.08.07-AM.jpeg" alt=""
+                    style="height: 600px;width: 700px;">
                 <br><br>
-                <img src="IMG/Ekadashi-Donation-poster-02-1024x1024.jpg" alt="" style="height: 600px;width: 700px;">
+                <img src="..//IMG/Ekadashi-Donation-poster-02-1024x1024.jpg" alt="" style="height: 600px;width: 700px;">
             </div>
             <div class="don-data">
                 <p class="up-event">Upcomming Events</p>
@@ -293,34 +178,9 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section class="footer">
-            <div class="foot-con">
-                <h4>Contact</h4>
-                <p><i class='bx bxs-phone-call' style="font-size:25px"></i><span class="number"> 98 98 55 01 85 </span>
-                </p>
-                <p><i class='bx bxs-envelope' style="font-size:25px"></i> <span
-                        class="isk-email">iskconrajkot108@gmail.com</span></p>
-                <div class="ig-yt-icon">
-                    <div class="ig"><a href=""><i class='bx bxl-instagram-alt' style="font-size: 35px;"></i></a></div>
-                    <div class="yt"><a href=""><i class='bx bxl-youtube' style="font-size: 35px;"></i></a></div>
-                    <div class="twit"><a href=""><i class='bx bxl-twitter' style="font-size: 35px;"></i></a></div>
-                    <div class="fb"><a href=""><i class='bx bxl-facebook-circle' style="font-size: 35px;"></i></a></div>
-                </div>
-            </div>
-            <div class="map"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d472602.7232680669!2d70.733606!3d22.27008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cb93680139cd%3A0x687628a06d38b673!2sISKCON%20Temple%20RAJKOT!5e0!3m2!1sen!2sus!4v1707194257288!5m2!1sen!2sus"
-                    width="430" height="230" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="loc">
-                <h3>Location</h3>
-                <p class="isk-loc">Shri Shri Radha Neelmadav Dham, Kalawad Rd, opp. Mavdi - Kankot Road, Patiya,
-                    Mota Mava, Rajkot,
-                    Gujarat 360005, India</p>
-            </div>
-        </section>
-    </footer>
+    <?php
+    include 'footer.php';
+    ?>
 </body>
 
 </html>
