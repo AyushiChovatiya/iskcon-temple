@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="..//style.css">
-
+   
+    <link rel="icon" type="image/x-icon" href="..//IMG/favicon icon.jpg">
 </head>
 
 <body>
@@ -30,20 +31,20 @@
                         <div class="sub">
                             <ul class="sub-menu">
                                 <li class="sub-menu-item">
-                                    <a href="temple.html">Temple</a>
+                                    <a href="temple.php">Temple</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">What is ISKCON?</a>
+                                    <a href="whatiskcon.php">What is ISKCON?</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Who is Srila Prabhupada?</a>
+                                    <a href="whoissrila.php">Who is Srila Prabhupada?</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">About HH Mahavishnu Goswami
+                                    <a href="hhmaha.php">About HH Mahavishnu Goswami
                                         Maharaja</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Authority</a>
+                                    <a href="authority.php">Authority</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,19 +56,19 @@
                         <div class="sub-activity">
                             <ul class="sub-menu">
                                 <li class="sub-menu-item">
-                                    <a href="#">ISKCON Youth Forun(IYF)</a>
+                                    <a href="iyf.php">ISKCON Youth Forun(IYF)</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Sunday Program</a>
+                                    <a href="sunday.php">Sunday Program</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Sri Prahlad Children's Class</a>
+                                    <a href="prahlad.php">Sri Prahlad Children's Class</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Radha Rani Sabha</a>
+                                    <a href="radharani.php">Radha Rani Sabha</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Courses On Bhagvat Gita</a>
+                                    <a href="course-bhagvad.php">Courses On Bhagvad Gita</a>
                                 </li>
                             </ul>
                         </div>
@@ -80,10 +81,10 @@
                         <div class="sub-booking">
                             <ul class="sub-menu">
                                 <li class="sub-menu-item">
-                                    <a href="#">Guest House Booking</a>
+                                    <a href="guest-house.php">Guest House Booking</a>
                                 </li>
                                 <li class="sub-menu-item">
-                                    <a href="#">Prasadam Booking</a>
+                                    <a href="prasadam.php">Prasadam Booking</a>
                                 </li>
                             </ul>
                         </div>

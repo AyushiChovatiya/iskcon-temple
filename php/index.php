@@ -4,7 +4,6 @@ include 'header.php';
 <html>
 
 <head>
-    <link rel="icon" type="image/x-icon" href="..//IMG/favicon icon.jpg">
     <title>ISKCON Rajkot</title>
 </head>
 

@@ -1,0 +1,247 @@
+/* IYF css start  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.iyf-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.iyf-div {
+    margin-top: 103px;
+    margin-left: 190px;
+    height: 5025px;
+}
+
+.iyf-title {
+    margin-bottom: 20px;
+    font-size: 1.01em;
+}
+
+.iyf-p {
+    margin-bottom: 20px;
+}
+
+.iyf-ol {
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.iyf-ol li {
+    margin-bottom: 15px;
+}
+
+.iyf-img {
+    width: 1024px;
+    height: 768px;
+    margin-bottom: 10px;
+}
+
+/* IYF css end  */
+
+
+/* Sunday Program css start  */
+.sun-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.sun-div {
+    margin-top: 103px;
+    margin-left: 190px;
+    width: 1140px;
+    height: 5025px;
+}
+
+.sun-title {
+    margin-bottom: 27px;
+    font-size: 1.01em;
+}
+
+.sun-p {
+    margin-bottom: 23px;
+    line-height: 1.5em;
+}
+
+/* Sunday Program css end  */
+
+
+/* SRI PRAHLAD css start  */
+.prah-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.prah-div {
+    margin-top: 105px;
+    margin-left: 190px;
+    /* width: 1140px; */
+    height: 4750px;
+}
+
+.prah-title {
+    margin-bottom: 20px;
+    font-size: 1.01em;
+}
+
+.prahlad-img {
+    width: 1024px;
+    height: 768px;
+    margin-bottom: 10px;
+}
+
+/* SRI PRAHLAD css end  */
+
+/* Radha rani css start  */
+.radha-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.radha-div {
+    margin-top: 105px;
+    margin-left: 190px;
+    /* width: 1000px; */
+    height: 500px;
+}
+
+.radha-title {
+    margin-bottom: 20px;
+    font-size: 1.01em;
+}
+
+/* Radha rani css end  */
+
+/* Bhagvad Gita css start  */
+.bhagvad-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.bhagvad-div {
+    margin-top: 105px;
+    margin-left: 190px;
+    /* width: 1000px; */
+    height: 500px;
+}
+
+.bhagvad-title {
+    margin-bottom: 20px;
+    font-size: 1.01em;
+}
+
+/* Bhagvad Gita css end  */
+
+
+/* Guest House booking css start  */
+.guest-sec {
+    position: absolute;
+    z-index: 9998;
+    display: flex;
+    gap: 80px;
+}
+
+.guest-div {
+    margin-top: 100px;
+    margin-left: 190px;
+    /* width: 500px; */
+    height: 4620px;
+}
+.guest-title {
+    margin-bottom: 28px;
+    font-size: 1.01em;
+}
+
+.guest-h2 {
+    font-size: 1.75em;
+    margin-bottom: 27px;
+}
+
+.guest-p {
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+.guest-a{
+    text-decoration: underline;
+}
+.guest-a:hover{
+    text-decoration: none;
+    color: #0e509a;
+}
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+/* Guest House booking css end  */
+
+
+/* prasadam css start  */
+.prasad-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.prasad-div {
+    width: 100%;
+    height: 500px;
+}
+
+.prasad-title {
+    margin-top: 35px;
+    font-size: 1.75em;
+    margin-bottom: 27px;
+}
+.prasad-p {
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+.prasad-h2 {
+    margin-bottom: 20px;
+    font-size: 1.75em;
+}
+/* prasadam css end  */

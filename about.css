@@ -1,0 +1,402 @@
+/* Start Temple CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.temp-sec {
+    position: absolute;
+    z-index: 9998;
+}
+
+.temple {
+    margin-top: 108px;
+    margin-left: 190px;
+    height: 2350px;
+}
+
+.temp-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.75em;
+}
+
+.temp-subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 1.75em;
+}
+
+.temp-p {
+    width: 1200px;
+}
+
+.temp-img {
+    height: 512px;
+    width: 768px;
+}
+
+.img-cap {
+    margin-top: 5px;
+    width: 1100px;
+    font-size: .8em;
+    opacity: .75;
+}
+
+.temp-h3 {
+    margin-top: 1.5rem;
+    font-size: 1.5em;
+}
+
+.our-p {
+    width: 1200px;
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.temp-a {
+    margin-top: 2.5rem;
+}
+
+footer {
+    /* position: fixed; */
+    /* bottom: 0; */
+    background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
+    height: 100px;
+    width: 100%;
+}
+
+.sec-foot {
+    text-align: center;
+}
+
+.sec-footp {
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* End Temple CSS */
+
+
+
+
+
+
+/* What is iskcon css start  */
+.what-sec {
+    position: absolute;
+    z-index: 9998;
+    display: flex;
+    gap: 80px;
+}
+
+.what-isk {
+    margin-top: 108px;
+    margin-left: 190px;
+    height: 920px;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.what-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+}
+
+.what-alink {
+    text-decoration: none;
+    color: #0d0551;
+}
+
+.what-p {
+    line-height: 1.7rem;
+    width: 764px;
+    font-size: 16px;
+}
+
+/* What is iskcon css end  */
+
+
+
+
+/* who is srila css start  */
+.who-sec {
+    position: absolute;
+    z-index: 9998;
+    display: flex;
+    gap: 80px;
+}
+
+.who-sri {
+    margin-top: 100px;
+    margin-left: 190px;
+    height: 3230px;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.who-img {
+    width: 770px;
+    height: 320px;
+}
+
+.who-title {
+    margin-top: 1.5rem;
+    font-size: 1.25em;
+}
+
+.who-p {
+    line-height: 1.7rem;
+    width: 764px;
+    font-size: 16px;
+}
+
+.who-sri img {
+    margin-block: 7px;
+    display: block;
+}
+
+/* who is srila css end  */
+
+
+/* what HH mahavishnu css start  */
+.hhmaha-sec {
+    position: absolute;
+    z-index: 9998;
+    display: flex;
+    gap: 80px;
+}
+
+.hhmaha-div {
+    margin-top: 100px;
+    margin-left: 190px;
+    width: 770px;
+    height: 4620px;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.hhmaha-img {
+    width: 764px;
+    height: 460px;
+}
+
+.hhmaha-imgt {
+    margin-top: 7px;
+    width: 764px;
+    height: 453px;
+}
+
+.hhmaha-imgth {
+    margin-top: 7px;
+    width: 754px;
+    height: 522px;
+}
+
+.hhmaha-title {
+    font-size: 1.25em;
+    margin-block: 1.5rem;
+}
+
+.hhmaha-p {
+    line-height: 1.7rem;
+    width: 764px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* what HH mahavishnu css end  */
+
+
+
+/* Authority css start  */
+.autho-sec {
+    position: absolute;
+    z-index: 9998;
+    display: flex;
+    gap: 80px;
+}
+
+.autho-div {
+    margin-top: 107px;
+    margin-left: 190px;
+    width: 770px;
+    height: 980px;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.autho-title {
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+}
+
+.autho-h3 {
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.autho-img {
+    width: 764px;
+    height: 573px;
+}
+
+/* Authority css end  */

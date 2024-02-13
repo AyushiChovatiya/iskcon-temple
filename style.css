@@ -16,6 +16,7 @@ header {
     width: 100%;
     background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
     z-index: 9999;
+    top: 0;
     position: fixed;
 }
 
@@ -217,11 +218,12 @@ header {
 
 
 
-/* About Css  */
+/* Home Css  */
 body {
     background-image: url(IMG/iskcon\ background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .homepg {
