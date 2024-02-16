@@ -1,13 +1,8 @@
 <?php
 include 'header.php';
 ?>
-<html>
 
-<head>
-    <title>ISKCON Rajkot</title>
-</head>
 
-<body>
     <main>
         <section class="se-carousel animate__animated animate__fadeInLeft">
             <!-- Carousel -->
@@ -180,6 +175,3 @@ include 'header.php';
     <?php
     include 'footer.php';
     ?>
-</body>
-
-</html>
