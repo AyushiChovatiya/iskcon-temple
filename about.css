@@ -11,15 +11,12 @@ body {
     height: 100vh;
 }
 
-.temp-sec {
-    position: absolute;
-    z-index: 9998;
-}
+
 
 .temple {
     margin-top: 108px;
     margin-left: 190px;
-    height: 2350px;
+    height: 2240px;
 }
 
 .temp-title {
@@ -63,35 +60,11 @@ body {
     margin-top: 2.5rem;
 }
 
-footer {
-    /* position: fixed; */
-    /* bottom: 0; */
-    background-image: linear-gradient(to right, #0d0551, #0e509a, #0366d6, #30A7FF);
-    height: 100px;
-    width: 100%;
-}
-
-.sec-foot {
-    text-align: center;
-}
-
-.sec-footp {
-    padding: 10px;
-    color: white;
-    font-size: 1.5rem;
-}
-
 /* End Temple CSS */
-
-
-
-
 
 
 /* What is iskcon css start  */
 .what-sec {
-    position: absolute;
-    z-index: 9998;
     display: flex;
     gap: 80px;
 }
@@ -165,8 +138,6 @@ footer {
 
 /* who is srila css start  */
 .who-sec {
-    position: absolute;
-    z-index: 9998;
     display: flex;
     gap: 80px;
 }
@@ -243,10 +214,8 @@ footer {
 
 /* what HH mahavishnu css start  */
 .hhmaha-sec {
-    position: absolute;
-    z-index: 9998;
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .hhmaha-div {
@@ -331,8 +300,8 @@ footer {
 
 /* Authority css start  */
 .autho-sec {
-    position: absolute;
-    z-index: 9998;
+    /* position: absolute; */
+    /* z-index: 9998; */
     display: flex;
     gap: 80px;
 }

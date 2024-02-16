@@ -11,10 +11,6 @@ body {
     height: 100vh;
 }
 
-.iyf-sec {
-    position: absolute;
-    z-index: 9998;
-}
 
 .iyf-div {
     margin-top: 103px;
@@ -50,16 +46,13 @@ body {
 
 
 /* Sunday Program css start  */
-.sun-sec {
-    position: absolute;
-    z-index: 9998;
-}
+
 
 .sun-div {
     margin-top: 103px;
     margin-left: 190px;
     width: 1140px;
-    height: 5025px;
+    height: 505px;
 }
 
 .sun-title {
@@ -76,10 +69,7 @@ body {
 
 
 /* SRI PRAHLAD css start  */
-.prah-sec {
-    position: absolute;
-    z-index: 9998;
-}
+
 
 .prah-div {
     margin-top: 105px;
@@ -102,10 +92,7 @@ body {
 /* SRI PRAHLAD css end  */
 
 /* Radha rani css start  */
-.radha-sec {
-    position: absolute;
-    z-index: 9998;
-}
+
 
 .radha-div {
     margin-top: 105px;
@@ -122,10 +109,7 @@ body {
 /* Radha rani css end  */
 
 /* Bhagvad Gita css start  */
-.bhagvad-sec {
-    position: absolute;
-    z-index: 9998;
-}
+
 
 .bhagvad-div {
     margin-top: 105px;
@@ -144,18 +128,17 @@ body {
 
 /* Guest House booking css start  */
 .guest-sec {
-    position: absolute;
-    z-index: 9998;
     display: flex;
     gap: 80px;
 }
 
 .guest-div {
-    margin-top: 100px;
+    margin-top: 103px;
     margin-left: 190px;
-    /* width: 500px; */
+    width: 700px;
     height: 4620px;
 }
+
 .guest-title {
     margin-bottom: 28px;
     font-size: 1.01em;
@@ -170,13 +153,16 @@ body {
     margin-bottom: 30px;
     line-height: 1.5em;
 }
-.guest-a{
+
+.guest-a {
     text-decoration: underline;
 }
-.guest-a:hover{
+
+.guest-a:hover {
     text-decoration: none;
     color: #0e509a;
 }
+
 .up-event {
     margin-top: 51px;
 }
@@ -221,14 +207,9 @@ body {
 
 
 /* prasadam css start  */
-.prasad-sec {
-    position: absolute;
-    z-index: 9998;
-}
-
 .prasad-div {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .prasad-title {
@@ -236,12 +217,15 @@ body {
     font-size: 1.75em;
     margin-bottom: 27px;
 }
+
 .prasad-p {
     margin-bottom: 30px;
     line-height: 1.5em;
 }
+
 .prasad-h2 {
     margin-bottom: 20px;
     font-size: 1.75em;
 }
+
 /* prasadam css end  */

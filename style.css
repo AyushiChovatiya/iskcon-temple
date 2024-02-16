@@ -51,7 +51,6 @@ header {
 
 .underlineEffects a {
     color: #fff;
-    text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     padding: 15px 20px;
@@ -91,9 +90,9 @@ header {
 .sub {
     position: absolute;
     left: -150px;
-    width: 399px;
+    width: 357px;
     font-size: 1rem;
-    height: 270px;
+    height: 252px;
     background-color: #0d0551;
     display: none;
     justify-content: center;
@@ -140,9 +139,9 @@ header {
 .sub-activity {
     position: absolute;
     left: -80px;
-    width: 326px;
+    width: 253px;
     font-size: 1rem;
-    height: 270px;
+    height: 250px;
     background-color: #0d0551;
     display: none;
     justify-content: center;
@@ -161,7 +160,7 @@ header {
 .sub-booking {
     position: absolute;
     left: -80px;
-    width: 222px;
+    width: 203px;
     font-size: 1rem;
     height: 105px;
     background-color: #0d0551;
@@ -594,7 +593,12 @@ footer {
     color: #30A7FF;
     cursor: pointer;
 }
-
+.foot-txt{
+    height: 100px;
+}
+.foot-txt h4{
+    color: #fff;
+}
 .number {
     position: absolute;
     font-size: 18px;

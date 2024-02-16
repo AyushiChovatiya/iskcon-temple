@@ -1,0 +1,558 @@
+/* Gau-Seva css start  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.gau-sec {
+    position: absoute;
+    z-index: 9998;
+    display: flex;
+    gap: 50px;
+}
+
+.gau-div {
+    margin-top: 108px;
+    margin-left: 190px;
+    width: 770px;
+    height: 2780px;
+}
+
+.gau-img {
+    width: 768px;
+    height: 432px;
+    margin-bottom: 1.5rem;
+}
+
+.gau-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.75em;
+}
+
+.gau-p {
+    width: 760px;
+    margin-bottom: 2.5rem;
+}
+
+.gau-a {
+    display: block;
+    margin-bottom: 20px;
+    color: #0366d6;
+}
+
+.gau-a:hover {
+    text-decoration: none;
+    color: #0e509a;
+}
+
+.gau-ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.gau-li {
+    line-height: 1.75em;
+}
+
+.gau-bankhead {
+    margin-top: 30px;
+    font-size: 1.75rem;
+}
+
+.gau-yesbank {
+    width: 119px;
+    height: 49px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.neft {
+    color: #0366d6;
+    text-decoration: underline;
+}
+
+.neft:hover {
+    color: #0e509a;
+    text-decoration: none;
+}
+
+.gau-h6 {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+.gau-secli {
+    line-height: 3em;
+}
+
+.gau-conh2 {
+    margin-block: 20px;
+    font-size: 1.75em;
+    line-height: 1.75em;
+}
+
+.krishna-img {
+    width: 628px;
+    height: 921px;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+/* Gau-Seva css end  */
+
+/* Nitya - Seva css start  */
+.nitya-sec {
+    position: absoute;
+    z-index: 9998;
+    display: flex;
+    gap: 50px;
+}
+
+.nitya-div {
+    margin-top: 108px;
+    margin-left: 190px;
+    width: 770px;
+    height: 1650px;
+}
+
+.nitya-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+}
+
+.nitya-p {
+    width: 760px;
+    line-height: 1.75em;
+    margin-bottom: 2.5rem;
+}
+
+.nitya-h2 {
+    font-size: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+.nitya-a {
+    margin-top: 3.5em;
+    display: block;
+}
+
+.nitya-a:hover {
+    text-decoration: none;
+    color: #0e509a;
+}
+
+.nitya-h2 {
+    margin-block: 20px;
+}
+
+.nitya-hdfc {
+    width: 173px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.nitya-yes {
+    width: 165px;
+    height: 68px;
+    margin-bottom: 20px;
+}
+
+.nitya-a {
+    display: block;
+    margin-bottom: 20px;
+    color: #0366d6;
+}
+
+.nitya-a:hover {
+    text-decoration: none;
+    color: #0e509a;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+/* Nitya - Seva css end  */
+
+/* Sadhu bhojan css start  */
+.sadhu-sec {
+    position: absoute;
+    z-index: 9998;
+    display: flex;
+    gap: 50px;
+}
+
+.sadhu-div {
+    margin-top: 108px;
+    margin-left: 190px;
+    width: 800px;
+    height: 4280px;
+}
+
+
+.sadhu-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.75em;
+}
+
+.sadhu-p {
+    width: 760px;
+    margin-bottom: 20px;
+}
+
+.sadhu-img {
+    width: 764px;
+    height: 573px;
+}
+
+.sadhu-imgs {
+    margin-top: 10px;
+    width: 764px;
+    height: 573px;
+    margin-bottom: 10px;
+}
+
+.sadhu-ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.sadhu-li {
+    line-height: 2.5em;
+}
+
+.sadhu-imgset {
+    width: 790px;
+    height: 350px;
+    margin-top: 7px;
+}
+
+.sadhu-t {
+    line-height: 1.75rem;
+    width: 760px;
+    margin-bottom: 20px;
+}
+
+.sadhu-hdfc {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sadhu-paytm {
+    width: 124px;
+    height: 41px;
+}
+
+.sadhu-paytm-img {
+    width: 210px;
+    height: 300pxpx;
+    display: block;
+}
+
+.sadhu-paytm-imgt {
+    width: 124px;
+    height: 41pxpx;
+    display: block;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+/* Sadhu bhojan css end  */
+
+/* Daily Annand css start  */
+.daily-sec {
+    display: flex;
+    gap: 50px;
+    /* overflow: auto; */
+}
+
+.daily-div {
+    margin-top: 108px;
+    margin-left: 190px;
+    width: 800px;
+    height: 2430px;
+}
+
+.daily-img {
+    width: 720px;
+    height: 720px;
+    margin-bottom: 1.5rem;
+}
+
+.daily-a {
+    display: block;
+    margin-bottom: 20px;
+    color: #0366d6;
+}
+
+.daily-a:hover {
+    text-decoration: none;
+    color: #0e509a;
+}
+
+.daily-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.75em;
+}
+
+.up-event {
+    margin-top: 51px;
+}
+
+.up-event {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+/* Daily Annand css end  */
+
+/* Food to Needy css start  */
+.food-sec {
+    display: flex;
+    gap: 50px;
+    /* overflow: auto; */
+}
+
+.food-div {
+    margin-top: 108px;
+    margin-left: 190px;
+    width: 800px;
+    height: 6020px;
+}
+
+.food-img {
+    width: 640px;
+    height: 480px;
+    margin-bottom: 7px;
+}
+
+.food-img-sm {
+    width: 360px;
+    height: 480px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.food-title {
+    margin-bottom: 1.75rem;
+    font-size: 1.75em;
+}
+
+.food-p {
+    width: 760px;
+    line-height: 1.8em;
+    margin-block: 1.5rem;
+}
+.food-h2b {
+    margin-bottom: 1.75rem;
+    font-size: 1.75em;
+}
+.food-h2 {
+    margin-top: 30px;
+    margin-bottom: 3rem;
+    font-size: 1.75em;
+}
+.food-don-a{
+    margin-block: 3em ;
+    display: block;
+}
+.food-hdfc {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+.food-or{
+    margin-block: 1.3em;
+}
+.food-conp{
+    margin-top: 1.5rem;
+}
+.food-h6{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+.food-wp-a{
+    margin-top: 3em;
+    text-decoration: underline;
+}
+.food-wp-a:hover{
+    text-decoration: none;
+    color: #0e509a;
+}
+/* food to needy css end  */
+
+/* Donation Policy Css start  */
+.poli-div {
+    margin-top: 103px;
+    margin-left: 190px;
+    width: 1140px;
+    height: 505px;
+}
+
+.poli-title {
+    margin-bottom: 27px;
+    font-size: 1.75em;
+}
+
+.poli-p {
+    margin-bottom: 23px;
+    line-height: 1.5em;
+}
+/* Donation Policy Css end  */
