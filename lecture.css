@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.lec-div {
+    margin-top: 110px;
+    margin-left: 190px;
+    width: 1150px;
+    height: 240px;
+}
+
+.lec-title {
+    margin-bottom: 27px;
+    font-size: 1.75em;
+}
+
+.lec-p {
+    line-height: 1.75em;
+}
+
+.lec-yt-video {
+    width: 1140px;
+    height: 820px;
+    margin-left: 170px;
+    background-color: white;
+    position: relative;
+}
+
+.lec-yt-head {
+    display: flex;
+    color: #0e509a;
+}
+
+.blue-logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.bl-lec {
+    width: 1100px;
+    margin: 0 0 0 20px !important;
+}
+
+.bl-txt {
+    margin-block: 0px;
+    font-size: 1.25em;
+}
+
+.lec-bio {
+    margin-block: -1px;
+    font-size: 15px;
+}
+
+.lec-yt-head:hover .black-yt {
+    display: flex;
+    color: #0d0551;
+    cursor: pointer;
+}
+
+.lect-yt-a {
+    text-decoration: none;
+}
+
+
+.lec-yt-head:hover::after {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.900);
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    content: "";
+    background-image: url(IMG/yt-logo-black.webp);
+    background-size: 60px;
+    cursor: pointer;
+}
+
+.yt-videos {
+    flex-direction: column;
+    height: 650px;
+    width: 1130px;
+    margin-top: 20px;
+    margin-inline: 5px;
+
+}
+
+.yt-fdiv-vd,
+.yt-sdiv-vd,
+.yt-tdiv-vd {
+    display: flex;
+}
+
+.yt-vd-a,
+.yt-vd-b,
+.yt-vd-c,
+.yt-vd-d,
+.yt-vd-e,
+.yt-vd-f,
+.yt-vd-g,
+.yt-vd-h,
+.yt-vd-i {
+    padding: 5px;
+
+}
+
+.yt-vd-footer {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.loader {
+    background-color: rgb(255, 255, 255);
+    transition: .1s ease-in;
+}
+
+.sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #408bd1;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bxl-youtube {
+    color: #fff;
+    font-size: 16px;
+}

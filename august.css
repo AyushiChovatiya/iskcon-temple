@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IMG/iskcon\ background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.augu-sec {
+    display: flex;
+    gap: 80px;
+}
+
+.augu-isk {
+    margin-top: 105px;
+    margin-left: 190px;
+    height: 920px;
+    width: 750px;
+}
+
+.augu-alight {
+    text-decoration: none;
+    color: #1a202cb8;
+    padding-left: 50px;
+}
+
+.what-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+}
+
+
+.up-event {
+    margin-top: 55px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.archive {
+    margin-top: 50px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.up-event a {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.up-event a:hover {
+    cursor: pointer;
+    color: #0e509a;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}
+
+.meta {
+    margin-top: 45px;
+    font-size: 1.30rem;
+    font-weight: 600;
+}

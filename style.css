@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .logo {
@@ -32,13 +32,12 @@ header {
 }
 
 .navbar {
-    margin-left: 100px;
+    margin-left: 200px;
 }
-.navbar .active a{
-    color:#a3bfff;
-}
+
 .underlineEffects ul {
     list-style: none;
+    /* display: none; */
     display: table;
     text-align: center;
     font-family: Roboto;
@@ -291,6 +290,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
 .onesrila {
     display: flex;
     justify-content: center;
@@ -593,12 +593,15 @@ footer {
     color: #30A7FF;
     cursor: pointer;
 }
-.foot-txt{
+
+.foot-txt {
     height: 100px;
 }
-.foot-txt h4{
+
+.foot-txt h4 {
     color: #fff;
 }
+
 .number {
     position: absolute;
     font-size: 18px;

@@ -497,19 +497,23 @@ body {
     line-height: 1.8em;
     margin-block: 1.5rem;
 }
+
 .food-h2b {
     margin-bottom: 1.75rem;
     font-size: 1.75em;
 }
+
 .food-h2 {
     margin-top: 30px;
     margin-bottom: 3rem;
     font-size: 1.75em;
 }
-.food-don-a{
-    margin-block: 3em ;
+
+.food-don-a {
+    margin-block: 3em;
     display: block;
 }
+
 .food-hdfc {
     width: 200px;
     height: 200px;
@@ -517,25 +521,31 @@ body {
     display: block;
     margin-bottom: 15px;
 }
-.food-or{
+
+.food-or {
     margin-block: 1.3em;
 }
-.food-conp{
+
+.food-conp {
     margin-top: 1.5rem;
 }
-.food-h6{
+
+.food-h6 {
     font-weight: 400;
     line-height: 21px;
     font-size: 14px;
 }
-.food-wp-a{
+
+.food-wp-a {
     margin-top: 3em;
     text-decoration: underline;
 }
-.food-wp-a:hover{
+
+.food-wp-a:hover {
     text-decoration: none;
     color: #0e509a;
 }
+
 /* food to needy css end  */
 
 /* Donation Policy Css start  */
@@ -543,7 +553,7 @@ body {
     margin-top: 103px;
     margin-left: 190px;
     width: 1140px;
-    height: 505px;
+    height: 1550px;
 }
 
 .poli-title {
@@ -552,7 +562,17 @@ body {
 }
 
 .poli-p {
-    margin-bottom: 23px;
-    line-height: 1.5em;
+    line-height: 1.75em;
+}
+.poli-sm-p {
+    margin-top: -12px;
+    margin-bottom: 5px;
+}
+.poli-sm-secp{
+    margin-top: 1.5em;
+}
+.poli-secp {
+    margin-top: -14px;
+    line-height: 1.75em;
 }
 /* Donation Policy Css end  */

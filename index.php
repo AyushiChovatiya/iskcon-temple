@@ -7,7 +7,6 @@ include 'header.php';
         <section class="se-carousel animate__animated animate__fadeInLeft">
             <!-- Carousel -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
                 <!-- Indicators/dots -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -87,7 +86,7 @@ include 'header.php';
                 teachings of Lord Krishna to the English-speaking world. Deeply moved by his devotion and wisdom, Abhay
                 became a disciple of Srila Bhaktisiddhanta in 1933, and resolved to carry out his mentor’s request.
                 Abhay, later known by the honorific A.C. Bhaktivedanta Swami Prabhupada, spent the next 32 years
-                preparing for his journey west. <a href="#">Read More</a>
+                preparing for his journey west. <a href="whoissrila.php">Read More</a>
             </p>
         </section>
         <section class="mahavishnu">
@@ -113,7 +112,7 @@ include 'header.php';
                     should ask them how far they have progressed, since we last met, in the matter of stopping the
                     repetition of the cycle of birth and death. Since that profound meeting, H H Mahāvishnu Goswami
                     Maharaj
-                    has dedicated his life to the rigorous study of Śrīmad-Bhāgavatam. <a href="#">Read More</a>
+                    has dedicated his life to the rigorous study of Śrīmad-Bhāgavatam. <a href="hhmaha.php">Read More</a>
                 </p>
             </div>
             <div class="img-maha">
