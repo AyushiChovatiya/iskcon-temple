@@ -37,7 +37,6 @@ header {
 
 .underlineEffects ul {
     list-style: none;
-    /* display: none; */
     display: table;
     text-align: center;
     font-family: Roboto;
@@ -237,11 +236,9 @@ body {
     width: 730px;
     height: 500px;
     margin-top: 40px;
-    /* padding-left: 90px; */
 }
 
 .img {
-    /* border: 1px solid black; */
     width: 450px;
     height: 500px
 }
@@ -307,8 +304,6 @@ body {
 }
 
 .srila p {
-    /* width: 1300px; */
-    /* margin-left: 105px; */
     text-align: justify;
     color: #393939;
     font-size: 18px;
